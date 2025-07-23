@@ -17,7 +17,7 @@ export async function GET() {
             id: 3, 
             name: "아기상어",
             image: "/images/babyShark.png",
-            description: "어쩐지 화가 난 듯한 모양새..",
+            description: "왜인지 화가 난 듯한 모양새..",
         },
         { 
             id: 4, 
@@ -27,9 +27,9 @@ export async function GET() {
         },
         { 
             id: 5, 
-            name: "데굴레오",
-            image: "/images/degulLeo.png",
-            description: "너부리는 내일 나한테 까만 돌멩이를 줄 거야..",
+            name: "대굴레오",
+            image: "/images/ddegulLeo.png", 
+            description: "두꺼운 지방에 둘러싸인 완벽하게 둥근 몸을 가졌다. 걷는 것보다 굴러가는 게 더 빠르다.",
         },
     ];
 

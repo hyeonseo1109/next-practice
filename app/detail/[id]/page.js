@@ -10,11 +10,9 @@ export default function Detail ({params}) {
         <>
             {card ? (
                 <>
-                    <main>
-                        <img
-                            className="h-[150px]"
-                            src={card.image} />
-                    </main>
+                    <img
+                        className="h-[150px] m-[15px]"
+                        src={card.image} />
                     {card.description}
                 </>
             ) : <h1>상품을 찾을 수 없습니다.</h1>}

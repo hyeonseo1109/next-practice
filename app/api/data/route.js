@@ -10,7 +10,7 @@ export async function GET() {
             id: 2, 
             name: "어른상어",
             image: "/images/adultShark.png",
-            description: "잘 익은 어른 상어입니다.",
+            description: "잘 익은 어른 상어",
 
         },
         { 

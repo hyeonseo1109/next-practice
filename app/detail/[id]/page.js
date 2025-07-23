@@ -7,12 +7,18 @@ export default function Detail ({params}) {
     const card = useDataStore( (state) => state.cards.find((c) => String(c.id) === id));
 
     return (
-        <main className="border bg-[gray]">
-            {card ? ( <>
-                {card.name}
-                <img src={card.image}/>
-
-                </>) : <h1>상품을 찾을 수 없습니다.</h1>}
-        </main>
+        <>
+            {card ? (
+                <>
+                    <main>
+                        <img
+                            className="h-[150px]"
+                            src={card.image} />
+                    </main>
+                    {card.description}
+                </>
+            ) : <h1>상품을 찾을 수 없습니다.</h1>}
+        </>
     )
 }
+

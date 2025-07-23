@@ -9,8 +9,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="ko">
-      <body>
-        <nav className="m-[20px] gap-[20px] flex">
+      <body className="w-full flex flex-col">
+        <nav className="w-full h-[50px] m-[20px] gap-[50px] flex bg-[rgb(253,255,197)] items-center justify-center shadow-[0_0_10px_rgb(155,205,144,0.5)]">
           <Link href="/">메인</Link>
           <Link href="/mypage">마이페이지</Link>
         </nav>
